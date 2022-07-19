@@ -1,0 +1,213 @@
+:root {
+	--rojo: #E50914;
+	--fondo: #141414;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+    
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+	color: #eaeaea;
+}
+
+
+header {
+	padding: 30px 0;
+    background-color: black;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    background-color: black;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+	transition: all 300ms ease;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+    
+}
+
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+
+.peli3 {
+	background: none;
+	text-align:justify;
+
+	width: 210px;
+	height: 290px;
+	padding: 0px;
+
+	margin-top: 80px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	margin-right: 0px;
+	color: #fff;
+}
+
+.sino{
+	background: none;
+	text-align:initial;
+
+	width: 310px;
+	height: 290px;
+	padding: 0px;
+
+	margin-top: 120px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	margin-right: 0px;
+	color: #fff;
+}
+
+.sino h3{
+	margin-top: 5px;
+	color: #E50914;
+}
+
+.peli3 .boton {
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+/* ---- ----- ----- cuadro ----- ----- ----- */
+
+.cuadro {
+    background-color: #fffafa;
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    height: 100%;
+    max-width: 40%;
+    max-height: 70%;
+	margin-left: 130px;
+    left: 30%;
+    box-shadow: 0px 0px 40px #141414, 0px 0px 80px #fffafa;
+    text-align: center;
+    border-top: 5px solid #fffafa;
+    border-bottom: 5px solid #fffafa;
+    border: 4px ridge #E50914;
+    padding: 2%;
+    background-color: #111111;
+}
+
+.cuadro label{
+    color: #fefefe;
+    font-size: 25px;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* ---- ----- ----- footer  ----- ----- ----- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.pie-pagina {
+	margin-top: 150px;
+	width: 100%;
+	background-color: #141414;
+}
+
+.pie-pagina .grupo-1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+	width: 250px;
+	align-items: center
+}
+
+.pie-pagina .grupo-1 .box h2 {
+	color: #E50914;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+	color: #FFF;
+	margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: rgb(255, 255, 255);
+	margin-right: 10px;
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+	transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+	color: #ff0000
+}
+
+.pie-pagina .grupo-2 {
+	background-color: #000000;
+	padding: 15px 10px;
+	text-align: center;
+	color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+	font-size: 15px;
+}
